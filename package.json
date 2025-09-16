@@ -1,0 +1,16 @@
+{
+  "devDependencies": {
+    "markdown-it-mathjax3": "^4.3.2",
+    "vitepress": "^1.6.3"
+  },
+  "scripts": {
+    "docs:dev": "vitepress dev docs --port 5003 --open",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "dependencies": {
+    "@fancyapps/ui": "^5.0.36",
+    "mermaid": "^11.6.0",
+    "vitepress-plugin-mermaid": "^2.0.17"
+  }
+}

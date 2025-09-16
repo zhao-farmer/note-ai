@@ -1,0 +1,4 @@
+.VPDoc.has-aside .content-container{
+    /* 设置默认宽度 */
+    max-width: 1000px !important;
+}
