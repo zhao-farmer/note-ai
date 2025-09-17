@@ -20,7 +20,7 @@ export default withMermaid({
 
   // 应用配置信息
   lang:'zh-cn',
-  title: "AI相关技术文档",
+  title: "赵建辉的AI知识库",
   description: "包含模型部署使用,AI工具使用,大模型应用,AI学习等",
 
   // markdown所在目录
