@@ -43,7 +43,7 @@ export default withMermaid({
           },
           {
             text: "AI声音工具",
-            link: "/markdown/application/round/",
+            link: "/markdown/application/sound/",
           },
           {
             text: "AI视频",
@@ -65,6 +65,15 @@ export default withMermaid({
           {
             text: "java使用模型",
             link: "/markdown/code/java/",
+          },
+        ], 
+      },
+      {
+        text: "AI模型相关",
+        items: [
+          {
+            text: "模型网站",
+            link: "/markdown/model/network/",
           },
         ], 
       },
@@ -154,11 +163,8 @@ export default withMermaid({
           {
             text: 'Claude Code',
             items: [
-              {text:'一、引言',link:'/markdown/code/tool/claude/01'},
-              {text:'二、Claude Code的安装',link:'/markdown/code/tool/claude/02'},
-              {text:'三、Claude Code 自然语言输入',link:'/markdown/code/tool/claude/03'},
-              {text:'四、Claude Code的命令行输入',link:'/markdown/code/tool/claude/04'},
-              {text:'四、Claude Code集成IDE',link:'/markdown/code/tool/claude/05'},
+              {text:'一、初始化Claude Code',link:'/markdown/code/tool/claude/01'},
+              {text:'二、Claude Code应用',link:'/markdown/code/tool/claude/02'},
             ],
           },
           {
@@ -170,138 +176,22 @@ export default withMermaid({
         ],
 
 
-
-        //============================ 其他技术 ==============================
-        '/markdown/other/install/': [
-            {
-                text: 'Jenkins',
-                // 相对路径会自动追加子路径前缀
-                items: [
-                  {text:'一、快速入门',link:'/markdown/other/install/Jenkins/01.md'},
-                ],
-            },
-            {
-              text: '其他',
-              // 相对路径会自动追加子路径前缀
-              items: [
-                {text:'github Actions',link:'/markdown/other/install/other/01.md'},
-              ],
-          },
-        ],
-        '/markdown/other/version/': [
-            {
-                text: 'git工具',
-                // 相对路径会自动追加子路径前缀
-                items: [
-                  {text:'一、概述',link:'/markdown/other/version/git/01.md'},
-                  {text:'二、安装软件',link:'/markdown/other/version/git/02.md'},
-                  {text:'三、使用githubDestop',link:'/markdown/other/version/git/03.md'},
-                  {text:'四、Git之版本号',link:'/markdown/other/version/git/04.md'},
-                  {text:'五、git命令',link:'/markdown/other/version/git/05.md'},
-                  {text:'六、gitlab',link:'/markdown/other/version/git/06.md'},
-                ],
-            },
-            {
-                text: 'github网站',
-                // 相对路径会自动追加子路径前缀
-                items: [
-                  {text:'一、基础使用',link:'/markdown/other/version/github/01.md'},
-                  {text:'二、github Actions',link:'/markdown/other/version/github/02.md'},
-                  {text:'三、github Pages',link:'/markdown/other/version/github/03.md'},
-                  {text:'四、vuePress项目部署github',link:'/markdown/other/version/github/04.md'},
-                ],
-            },
-            {
-                text: 'svn工具',
-                // 相对路径会自动追加子路径前缀
-                items: [
-                  {text:'一、VisualSVN(svn服务端)',link:'/markdown/other/version/svn/01.md'},
-                  {text:'二、TortoiseSVN(svn客户端)',link:'/markdown/other/version/svn/02.md'},
-                  {text:'三、开发工具安装svn',link:'/markdown/other/version/svn/03.md'},
-                ],
-            },
-        ],
-        '/markdown/other/document/': [
+        '/markdown/model/network/': [
           {
-            
-              text: 'vuePress静态站点',
-              // 相对路径会自动追加子路径前缀
-              items: [
-                {text:'一、快速上手',link:'/markdown/other/document/vuepress/01.md'},
-                {text:'二、配置文件修改',link:'/markdown/other/document/vuepress/02.md'},
-                {text:'三、页面',link:'/markdown/other/document/vuepress/03.md'},
-                {text:'四、makdown语法扩展',link:'/markdown/other/document/vuepress/04.md'},
-                {text:'五、静态资源',link:'/markdown/other/document/vuepress/05.md'},
-                {text:'六、github部署',link:'/markdown/other/document/vuepress/06.md'},
-                {text:'七、样式相关配置',link:'/markdown/other/document/vuepress/07.md'},
-                {text:'八、插件配置',link:'/markdown/other/document/vuepress/08.md'},
-              ],
-          },
-          {
-            text: 'vitePress静态站点',
-            // 相对路径会自动追加子路径前缀
+            text: 'Huggingface(抱脸)',
             items: [
-              {text:'一、快速上手',link:'/markdown/other/document/vitepress/01.md'},
-              {text:'二、配置文件',link:'/markdown/other/document/vitepress/02.md'},
-              {text:'三、插件配置',link:'/markdown/other/document/vitepress/03.md'},
-              {text:'四、其他配置',link:'/markdown/other/document/vitepress/04.md'},
-              {text:'五、问题与解决方案',link:'/markdown/other/document/vitepress/05.md'},
+              {text:'一、注册用户与token',link:'/markdown/model/network/huggingface/01.md'},
+              {text:'二、huggingface网站使用',link:'/markdown/model/network/huggingface/02.md'},
+              {text:'三、镜像与下载',link:'/markdown/other/model/huggingface/03.md'},
             ],
           },
           {
-            text: 'Jekyll静态站点',
-            // 相对路径会自动追加子路径前缀
+            text: 'modelscope(魔塔)',
             items: [
-              {text:'一、Jekyll介绍',link:'/markdown/other/document/Jekyll/01.md'},
-              {text:'二、安装与测试',link:'/markdown/other/document/Jekyll/02.md'},
-              {text:'三、命令与配置',link:'/markdown/other/document/Jekyll/03.md'},
-              {text:'四、目录结构',link:'/markdown/other/document/Jekyll/04.md'},
-              {text:'五、配置信息',link:'/markdown/other/document/Jekyll/05.md'},
-              {text:'六、minima默认主题',link:'/markdown/other/document/Jekyll/06.md'},
-              {text:'七、Jekyll 主题 Chirpy 使用教程',link:'/markdown/other/document/Jekyll/07.md'},
+              {text:'一、快速入门',link:'/markdown/model/network/modelscope/01.md'},
             ],
           },
-          {
-            text: 'hugo静态站点',
-            // 相对路径会自动追加子路径前缀
-            items: [
-              {text:'一、快速上手',link:'/markdown/other/document/hugo/01.md'},
-            ],
-          },
-          {
-            text: 'Docusaurus静态站点',
-            // 相对路径会自动追加子路径前缀
-            items: [
-              {text:'待补充',link:'/markdown/other/document/Docusaurus/01.md'},
-            ],
-          },
-        ],
-        
-        '/markdown/other/network/': [
-          {
-              text: 'shadowsocks小飞机',
-              // 相对路径会自动追加子路径前缀
-              items: [
-                {text:'Shadowsocks 服务端安装',link:'/markdown/other/network/shadowsocks/01.md'},
-                {text:'Shadowsocks 客户端安装',link:'/markdown/other/network/shadowsocks/02.md'},
-              ],
-          },
-          {
-            text: 'Huggingface',
-            // 相对路径会自动追加子路径前缀
-            items: [
-              {text:'一、注册用户与token',link:'/markdown/other/network/huggingface/01.md'},
-              {text:'二、huggingface网站使用',link:'/markdown/other/network/huggingface/02.md'},
-              {text:'三、镜像与下载',link:'/markdown/other/network/huggingface/03.md'},
-            ],
-          },
-          {
-            text: '其他网络问题',
-            // 相对路径会自动追加子路径前缀
-            items: [
-              {text:'CDN插件安装',link:'/markdown/other/network/cdn/01.md'},
-            ],
-          },
+          
        ],
     },
 
