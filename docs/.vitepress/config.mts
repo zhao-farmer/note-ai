@@ -182,7 +182,7 @@ export default withMermaid({
             items: [
               {text:'一、注册用户与token',link:'/markdown/model/network/huggingface/01.md'},
               {text:'二、huggingface网站使用',link:'/markdown/model/network/huggingface/02.md'},
-              {text:'三、镜像与下载',link:'/markdown/other/model/huggingface/03.md'},
+              {text:'三、镜像与下载',link:'/markdown/model/network/huggingface/03.md'},
             ],
           },
           {
